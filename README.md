@@ -11,7 +11,7 @@ The src folder contains the following files.
 ## Building the model
 While in the folder, run "make" in the terminal to compile main.cpp and create the executable "slm", which is the small languague model.
 
-### Using the model
+## Using the model
 If a user then wants to run SLM, three (optionally four) arguments must be submitted along with ./slm: 
 
 * The length of the KGram k. 
@@ -25,4 +25,5 @@ For completeness, we also want a starting seed, although not necessary. Let's us
 In the terminal, this should look like:
 
 ./slm 3 ~/path_to/mytextfile.txt 10 the
+
 
