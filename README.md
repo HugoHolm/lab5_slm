@@ -1,4 +1,6 @@
-# Small Languague Model
+# Small Language Model
+This program contains a Small Language Model. The concept is that the model reads and trains on a file, then generates new probabilistic text, based on the character-combinations in the training data. 
+## Files 
 The src folder contains the following files. 
 
 * KGram.h
@@ -25,5 +27,6 @@ For completeness, we also want a starting seed, although not necessary. Let's us
 In the terminal, this should look like:
 
 ./slm 3 ~/path_to/mytextfile.txt 10 the
+
 
 
